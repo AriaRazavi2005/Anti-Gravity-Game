@@ -1,0 +1,25 @@
+{
+  "name": "anti-gravity-game",
+  "version": "1.0.0",
+  "description": "Anti-Gravity Runner 3.0 Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "AriaRazavi2005",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.ariarazavi.antigravity",
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    }
+  }
+}
